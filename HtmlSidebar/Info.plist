@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12E55</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HtmlSidebar</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.winkwinknodnod.plugin.HtmlHelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Html Helper</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CodaAuthorString</key>
+	<string>Bill Heaton</string>
+	<key>CodaDescriptionString</key>
+	<string>HTML Helper Sidebar</string>
+	<key>CodaIconHighlightHexColor</key>
+	<string>#9100FF</string>
+	<key>CodaIconMaskFile</key>
+	<string>HtmlHelper</string>
+	<key>CodaPlugInSupportedAPIVersion</key>
+	<integer>6</integer>
+	<key>DTCompiler</key>
+	<string></string>
+	<key>DTPlatformBuild</key>
+	<string>4H1003</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>11E52</string>
+	<key>DTSDKName</key>
+	<string>macosx10.7</string>
+	<key>DTXcode</key>
+	<string>0462</string>
+	<key>DTXcodeBuild</key>
+	<string>4H1003</string>
+	<key>NSPrincipalClass</key>
+	<string>HtmlSidebar</string>
+</dict>
+</plist>

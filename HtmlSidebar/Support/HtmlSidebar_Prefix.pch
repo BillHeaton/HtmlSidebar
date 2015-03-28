@@ -1,0 +1,16 @@
+/*!
+ * @file  HtmlSidebar_Prefix.pch
+ * @brief HtmlSidebar Precompiled Header
+ *
+ * The file is used to allow the compiler to cache the content of all
+ * of the system includes that the project use.s
+ *
+ * Created by William Heaton on 9/18/2014. <br>
+ * &copy; 2014 by WinkWinkNodNod, LLC &mdash; All rights reserved.
+ * @see BSD License Terms on Main Doxygen page or DoxygenMain.m
+ *
+ */
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

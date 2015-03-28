@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B48D41C1AC1034200444147 /* DoxygenMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B48D4191AC1034200444147 /* DoxygenMain.m */; };
+		2B48D4241AC103AB00444147 /* HtmlPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B48D4211AC103AB00444147 /* HtmlPluginViewController.m */; };
+		2B48D4251AC103AB00444147 /* HtmlSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B48D4231AC103AB00444147 /* HtmlSidebar.m */; };
+		2B48D42A1AC103BA00444147 /* HtmlHelper.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2B48D4271AC103BA00444147 /* HtmlHelper.pdf */; };
+		2B48D42C1AC103BA00444147 /* HtmlSidebar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B48D4291AC103BA00444147 /* HtmlSidebar.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B48D40E1AC1014800444147 /* HtmlSidebar.codasidebar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlSidebar.codasidebar; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B48D4191AC1034200444147 /* DoxygenMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoxygenMain.m; sourceTree = "<group>"; };
+		2B48D41A1AC1034200444147 /* HtmlSidebar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlSidebar_Prefix.pch; sourceTree = "<group>"; };
+		2B48D41B1AC1034200444147 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		2B48D4201AC103AB00444147 /* HtmlPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlPluginViewController.h; sourceTree = "<group>"; };
+		2B48D4211AC103AB00444147 /* HtmlPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlPluginViewController.m; sourceTree = "<group>"; };
+		2B48D4221AC103AB00444147 /* HtmlSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlSidebar.h; sourceTree = "<group>"; };
+		2B48D4231AC103AB00444147 /* HtmlSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlSidebar.m; sourceTree = "<group>"; };
+		2B48D4271AC103BA00444147 /* HtmlHelper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HtmlHelper.pdf; sourceTree = "<group>"; };
+		2B48D4281AC103BA00444147 /* HtmlHelper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HtmlHelper.png; sourceTree = "<group>"; };
+		2B48D4291AC103BA00444147 /* HtmlSidebar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HtmlSidebar.xib; sourceTree = "<group>"; };
+		2B48D42D1AC1040600444147 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodaPlugInsController.h; path = ../../../CodaPlugInsController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B48D40B1AC1014800444147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B48D4051AC1014800444147 = {
+			isa = PBXGroup;
+			children = (
+				2B48D4101AC1014800444147 /* HtmlSidebar */,
+				2B48D40F1AC1014800444147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B48D40F1AC1014800444147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B48D40E1AC1014800444147 /* HtmlSidebar.codasidebar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B48D4101AC1014800444147 /* HtmlSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				2B48D41F1AC103AB00444147 /* Sources */,
+				2B48D4261AC103BA00444147 /* Resources */,
+				2B48D4181AC1034200444147 /* Support */,
+			);
+			path = HtmlSidebar;
+			sourceTree = "<group>";
+		};
+		2B48D4181AC1034200444147 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2B48D42D1AC1040600444147 /* CodaPlugInsController.h */,
+				2B48D4191AC1034200444147 /* DoxygenMain.m */,
+				2B48D41A1AC1034200444147 /* HtmlSidebar_Prefix.pch */,
+				2B48D41B1AC1034200444147 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2B48D41F1AC103AB00444147 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B48D4201AC103AB00444147 /* HtmlPluginViewController.h */,
+				2B48D4211AC103AB00444147 /* HtmlPluginViewController.m */,
+				2B48D4221AC103AB00444147 /* HtmlSidebar.h */,
+				2B48D4231AC103AB00444147 /* HtmlSidebar.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2B48D4261AC103BA00444147 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B48D4271AC103BA00444147 /* HtmlHelper.pdf */,
+				2B48D4281AC103BA00444147 /* HtmlHelper.png */,
+				2B48D4291AC103BA00444147 /* HtmlSidebar.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B48D40D1AC1014800444147 /* HtmlSidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B48D4151AC1014800444147 /* Build configuration list for PBXNativeTarget "HtmlSidebar" */;
+			buildPhases = (
+				2B48D40A1AC1014800444147 /* Sources */,
+				2B48D40B1AC1014800444147 /* Frameworks */,
+				2B48D40C1AC1014800444147 /* Resources */,
+				2B48D42E1AC1083600444147 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlSidebar;
+			productName = HtmlSidebar;
+			productReference = 2B48D40E1AC1014800444147 /* HtmlSidebar.codasidebar */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B48D4061AC1014800444147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "WinkWinkNodNod, LLC";
+				TargetAttributes = {
+					2B48D40D1AC1014800444147 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B48D4091AC1014800444147 /* Build configuration list for PBXProject "HtmlSidebar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B48D4051AC1014800444147;
+			productRefGroup = 2B48D40F1AC1014800444147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B48D40D1AC1014800444147 /* HtmlSidebar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B48D40C1AC1014800444147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B48D42A1AC103BA00444147 /* HtmlHelper.pdf in Resources */,
+				2B48D42C1AC103BA00444147 /* HtmlSidebar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B48D42E1AC1083600444147 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $INSTALL_BUNDLE == 1 ]; then\nDEST=\"$USER_LIBRARY_DIR/Application Support/Coda 2/Plug-ins/$FULL_PRODUCT_NAME\"\nORG=\"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\nrm -rf \"$DEST\"\nmv \"$ORG\" \"$DEST\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B48D40A1AC1014800444147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B48D4241AC103AB00444147 /* HtmlPluginViewController.m in Sources */,
+				2B48D4251AC103AB00444147 /* HtmlSidebar.m in Sources */,
+				2B48D41C1AC1034200444147 /* DoxygenMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B48D4131AC1014800444147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		2B48D4141AC1014800444147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		2B48D4161AC1014800444147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HtmlSidebar/Info.plist;
+				INSTALL_BUNDLE = "";
+				"INSTALL_BUNDLE[arch=*]" = 1;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = codasidebar;
+			};
+			name = Debug;
+		};
+		2B48D4171AC1014800444147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HtmlSidebar/Info.plist;
+				INSTALL_BUNDLE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = codasidebar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B48D4091AC1014800444147 /* Build configuration list for PBXProject "HtmlSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B48D4131AC1014800444147 /* Debug */,
+				2B48D4141AC1014800444147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B48D4151AC1014800444147 /* Build configuration list for PBXNativeTarget "HtmlSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B48D4161AC1014800444147 /* Debug */,
+				2B48D4171AC1014800444147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B48D4061AC1014800444147 /* Project object */;
+}
