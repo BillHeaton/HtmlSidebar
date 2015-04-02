@@ -17,7 +17,7 @@
 @implementation HtmlPlugInViewController
 
 @synthesize pluginController;
-
+@synthesize TagTextfield;
 
 - (id)initWithNibName:(NSString*)nibName plugInBundle:(id <CodaPlugInBundle>)plugInBundle plugInController:(CodaPlugInsController*)aController
 {
@@ -32,6 +32,7 @@
 
 - (IBAction)actionButton:(id)sender {
     NSLog(@"%@", @"Button Push!");
+    [TagTextfield setBordered:YES];
 }
 
 @end

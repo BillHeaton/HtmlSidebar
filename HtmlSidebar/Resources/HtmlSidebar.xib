@@ -7,7 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="HtmlPlugInViewController">
             <connections>
-                <outlet property="HtmlView" destination="Hz6-mo-xeY" id="1M6-7T-zEm"/>
+                <outlet property="TagTextfield" destination="EPR-80-AnZ" id="klv-7b-jOG"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
@@ -24,12 +24,9 @@
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
-                    <connections>
-                        <action selector="HtmlView:" target="Hz6-mo-xeY" id="21Q-TI-ebD"/>
-                    </connections>
                 </textField>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLm-24-Ksa">
-                    <rect key="frame" x="95" y="324" width="82" height="32"/>
+                    <rect key="frame" x="95" y="323" width="82" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="y11-8b-GsH">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -40,9 +37,6 @@
                     </connections>
                 </button>
             </subviews>
-            <connections>
-                <outlet property="TagTextField" destination="EPR-80-AnZ" id="F7w-KP-hgX"/>
-            </connections>
         </customView>
     </objects>
 </document>

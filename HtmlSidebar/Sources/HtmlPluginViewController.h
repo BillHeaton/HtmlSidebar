@@ -23,7 +23,7 @@
 - (id)initWithNibName:(NSString*)nibName plugInBundle:(id <CodaPlugInBundle>)plugInBundle plugInController:(CodaPlugInsController*)aController;
 
 @property (assign) CodaPlugInsController *pluginController;
-@property (assign) IBOutlet HtmlPlugInViewController *HtmlView;
+@property (assign) IBOutlet NSTextField *TagTextfield;
 
 @end
 
