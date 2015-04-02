@@ -13,7 +13,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "CodaPluginsController.h"
-
+#import "HtmlPluginViewController.h"
 
 @interface HtmlPlugInViewController : NSViewController <CodaSidebarViewController>
 {
@@ -23,7 +23,7 @@
 - (id)initWithNibName:(NSString*)nibName plugInBundle:(id <CodaPlugInBundle>)plugInBundle plugInController:(CodaPlugInsController*)aController;
 
 @property (assign) CodaPlugInsController *pluginController;
-
+@property (assign) IBOutlet HtmlPlugInViewController *HtmlView;
 
 @end
 

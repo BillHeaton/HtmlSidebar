@@ -80,10 +80,10 @@
 		2B48D41F1AC103AB00444147 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2B48D4201AC103AB00444147 /* HtmlPluginViewController.h */,
-				2B48D4211AC103AB00444147 /* HtmlPluginViewController.m */,
 				2B48D4221AC103AB00444147 /* HtmlSidebar.h */,
 				2B48D4231AC103AB00444147 /* HtmlSidebar.m */,
+				2B48D4201AC103AB00444147 /* HtmlPluginViewController.h */,
+				2B48D4211AC103AB00444147 /* HtmlPluginViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";

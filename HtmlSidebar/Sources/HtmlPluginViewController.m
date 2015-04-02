@@ -30,5 +30,9 @@
     return self;
 }
 
+- (IBAction)actionButton:(id)sender {
+    NSLog(@"%@", @"Button Push!");
+}
+
 @end
 
