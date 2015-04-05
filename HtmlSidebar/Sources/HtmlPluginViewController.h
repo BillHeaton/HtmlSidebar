@@ -14,7 +14,7 @@
 #import <Cocoa/Cocoa.h>
 #import "CodaPluginsController.h"
 #import "HtmlPluginViewController.h"
-
+           
 @interface HtmlPlugInViewController : NSViewController <CodaSidebarViewController>
 {
     CodaPlugInsController	*pluginController;

@@ -33,7 +33,7 @@
 /// @section environment Development Environment
 ///
 /// <ul>
-///   <li>The Coda Plugin was generated using Xcode Version .1.1 available from the
+///   <li>The Coda Plugin was generated using Xcode Version 6.2 available from the
 ///       Apple App Store: https://itunes.apple.com/us/app/xcode/id49779983</li>
 ///
 ///   <li>The plugin uses the Coda Plugin Source code Version 7 available from
@@ -71,8 +71,8 @@
 /// <ul>
 ///   <li>Select Your Project in xcode</li>
 ///   <li>"Build Settings"</li>
-///   <li>Search for "Objective-c Automatic Reference Counting"</li>
-///   <li>Set to "No"</li>
+///   <li>Search for "EMBEDDED_CONTENT_CONTAINS_SWIFT"</li>
+///   <li>Set to "Yes"</li>
 ///   <li>Project/Clean</li>
 ///   <li>Project/Build</li>
 ///  </ul>
