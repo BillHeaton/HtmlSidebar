@@ -71,8 +71,8 @@
 /// <ul>
 ///   <li>Select Your Project in xcode</li>
 ///   <li>"Build Settings"</li>
-///   <li>Search for "EMBEDDED_CONTENT_CONTAINS_SWIFT"</li>
-///   <li>Set to "Yes"</li>
+///   <li>Search for "Objective-c Automatic Reference Counting"</li>
+///   <li>Set to "No"</li>
 ///   <li>Project/Clean</li>
 ///   <li>Project/Build</li>
 ///  </ul>
